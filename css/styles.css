@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+header{
+    overflow: hidden;
+}
+
+.top{
+    position: relative;
+    text-align: center;
+    color:white;
+    object-fit: cover;
+}
+
+.malak{
+    text-align: center;
+}
+
+.malak a{
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Benne;
+    color: white;
+}
+
+.burger{
+    background-color: rgba(145, 138, 138, 0.767);
+}
+
+.interior{
+    width: 100%;
+    height:300px;
+    opacity: 90%;
+}
+
+h1{
+    position: absolute;
+    top:15%;
+    font-size: 150px;
+    font-family: Satisfy;
+    text-align: center;
+}
+
+.navbar{
+    float: right;
+}
+
+.fa{
+    padding: 10px;
+    text-align: center;
+    font-size: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.fa:hover{
+    opacity:0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #841288;
+    color: white;
+  }
+
+footer{
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/*About Us*/
+
+.mission{
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px 10px;
+    padding: 30px;
+}
+
+#bs{
+    font-size: 108px;
+    top:35%;
+}
+
+video{
+    margin: 0px 330px;
+    width: 100%;
+    height: 500px;
+}
+
+/*Home*/
+
+.carousel-container {
+    padding: 0;
+}
+
+
+.carousel-item{
+    width: 100%; 
+    height: 200%; 
+    overflow: auto;
+    margin-top: 70px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+}
+
+.img-fluid{
+    width: 100%;
+    height:100%;
+}
+
+h5{
+    font-family: Satisfy;
+    font-size: 40px;
+}
+
+.carousel-item p{
+    font-family: Benne;
+    font-size: 20px;
+}
+
+.bottomhome video{
+    width: 100%;
+    height:500px
+}
+
+.bottomhome p{
+    text-align: center;
+    font-family: Benne;
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
+
+#title, #title1, #title2, #title3, #title4{
+    font-family: Satisfy;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+
+/*Reviews*/
+.rs{
+    font-size: 120px;
+    top: 30%;
+}
+
+form{
+    margin: 10px 5px;
+    padding: 50px;
+    font-family: Benne;
+    font-size: 18px;
+}
+
+.submit{
+    float: right;
+}
+
+.rv{
+    display:inline-block;
+    margin:8px;
+}
+
+ .rv img{
+     width: 350px;
+     border-radius: 5px;
+     float: left;
+     margin: 0px 10px;
+     
+ }
+
+.trip{
+     float:left;
+     font-family: Satisfy;
+     font-size: 35px;
+     margin:  10px;
+     font-weight: lighter;
+     padding-left:50px;
+
+ }
+
+ .r1{
+    font-family: Satisfy;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.r2{
+    font-family: Benne;
+    font-size: 22px;
+}
+
+/*Menu*/
+
+.soup{
+    text-align: center;
+    font-family:Satisfy;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.one{
+    padding: 8px;
+    margin: 0px ;
+    width: 380px;
+    display: inline-block;
+    margin-right: 18px;
+    margin-left: 8px;
+}
+
+.one img{
+    width: 370px;
+    height: 310px;
+    align-content: center;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+.one figcaption{
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: bold;
+    margin-top: 10px;
+}
+
+.one p{
+    text-align: center;
+    font-family: Benne;
+    font-size: 20px;
+}
+
